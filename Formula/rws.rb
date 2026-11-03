@@ -1,28 +1,28 @@
 class Rws < Formula
   desc "HTTP/1.1, HTTP/2 and HTTP/3 web server, reverse proxy and app framework"
   homepage "https://rws8.tech"
-  version "18.26.0"
+  version "18.27.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bohdaq/rust-web-server/releases/download/18.26.0/rws-18.26.0-aarch64-apple-darwin.tar.gz"
-      sha256 "38d4277ac1057c2834ef6b13540b1ba225172d8b00aa8af17d3e4f9db13da420"
+      url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-aarch64-apple-darwin.tar.gz"
+      sha256 "dcbe3e5c2c30c124e55d51b41e7a8950a9d4265820543191f6db6587fb967991"
     end
     on_intel do
-      url "https://github.com/bohdaq/rust-web-server/releases/download/18.26.0/rws-18.26.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a9bd4a3dab4cd40c9d83eb9b8e84476d4d5074593314538f88be94e6c501eb41"
+      url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d243582ea196ad1beb8131d1dd9d08687d070a89a2b7b240df765f370bfa1a56"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bohdaq/rust-web-server/releases/download/18.26.0/rws-18.26.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7a85af1df59172263c5dbe202c002ba267fda6d82ade958d4f19cdcf8cfde1ed"
+      url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "92d3581a458747b9ea06348d08cdac15f105f9a9cc4400ff8fe040c847e493ee"
     end
     on_intel do
-      url "https://github.com/bohdaq/rust-web-server/releases/download/18.26.0/rws-18.26.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cfb187c42e3d1faa92b2f66e0f0b00954c0fe534bcd5b169b880c33eac131240"
+      url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2e2df0104eeeac5b9d0f3e9016461cf72b88c375bf64582c0887d17d33ad0e5b"
     end
   end
 
