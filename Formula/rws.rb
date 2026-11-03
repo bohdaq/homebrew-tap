@@ -7,22 +7,22 @@ class Rws < Formula
   on_macos do
     on_arm do
       url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dcbe3e5c2c30c124e55d51b41e7a8950a9d4265820543191f6db6587fb967991"
+      sha256 "dd0ba8f05619c2725886540bede744737733348e2bf6b015be36c5abf2524e2c"
     end
     on_intel do
       url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d243582ea196ad1beb8131d1dd9d08687d070a89a2b7b240df765f370bfa1a56"
+      sha256 "98ee394e1b94166a796d5731f2f178f313c3f623e27038972b03c81543c219dd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "92d3581a458747b9ea06348d08cdac15f105f9a9cc4400ff8fe040c847e493ee"
+      sha256 "8665d1e82157689c797a697eaf38a86a1e5822c7f75fd5a30094d75a568bba11"
     end
     on_intel do
       url "https://github.com/bohdaq/rust-web-server/releases/download/18.27.0/rws-18.27.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2e2df0104eeeac5b9d0f3e9016461cf72b88c375bf64582c0887d17d33ad0e5b"
+      sha256 "089de3103f495fb7cebdaece9c61752030fa4def345de745557d696e278657c2"
     end
   end
 
